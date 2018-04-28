@@ -1,18 +1,28 @@
-var friends = require("app/data/friends.js");
+var friends = require("../data/friends");
+console.log(friends);
 
-app.get("/api/friends", function(req, res) {
-    return res.json(friends);
+module.exports = function(app) {
+
+
+  app.get("/api/friends", function(req, res) {
+      return res.json(friends);
+      console.log(friends);
+      console.log(res.scores);
+      console.log(req.scores);
+    });
+
+  app.post("/api/friends", function(req, res) {
+
+    
+      var newFriends = req.body;
+
+      // console.log(newFriends);
+
+      friends.push(newFriends);
+    
+      res.json(newFriends);
+
+      console.log(newFriends)
+
   });
-
-app.post("/api/friends", function(req, res) {
-  
-    var newFriends = req.body;
-
-    newFriends.routeName = newFriends.name.replace(/\s+/g, "").toLowerCase();
-
-    console.log(newFriends);
-
-    characters.push(newFriends);
-  
-    res.json(newFriends);
- });
+};
