@@ -1,6 +1,6 @@
 var friends = [{
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://yt3.ggpht.com/wm5LCci89chQvQ0oeDl-QxDMwCFTu6v0YiSEytYinTbG-hU_iLP9Jqc6cC57SbNLGxIlOfAhsrfE7BG_HO8=s900-mo-c-c0xffffffff-rj-k-no",
     "scores":[
         5,
         1,
@@ -16,7 +16,7 @@ var friends = [{
   },
   {
     "name":"Scotty",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://i0.kym-cdn.com/entries/icons/facebook/000/011/365/GRUMPYCAT.jpg",
     "scores":[
         3,
         2,
@@ -32,7 +32,7 @@ var friends = [{
   },
   {
     "name":"Bobby",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://thebigcatsanctuary.org/wp-content/uploads/2017/02/whf-experiences.jpg",
     "scores":[
         1,
         2,
@@ -48,7 +48,7 @@ var friends = [{
   },
   {
     "name":"Sam",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://3.bp.blogspot.com/-PWh76bHPAYk/WcK7AYAwCEI/AAAAAAABz5E/kGThGaywUTc80vRLwEULRBAmXgWJe_XpgCLcBGAs/s1600/funny-cat-277-01.jpg",
     "scores":[
         1,
         1,
@@ -64,7 +64,7 @@ var friends = [{
   },
   {
     "name":"Samantha",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.realsimple.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fportrait_435x518%2Fpublic%2Fgettyimages-521187729.jpg%3Fitok%3DXdnc8ny-&w=300&q=85",
     "scores":[
         2,
         5,
@@ -80,7 +80,7 @@ var friends = [{
   },
   {
     "name":"Charlotte",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://78.media.tumblr.com/a626814e21b0374e09ed753e1bca2b53/tumblr_okobscZwHX1vtm1g2o1_500.jpg",
     "scores":[
         1,
         1,
@@ -96,7 +96,7 @@ var friends = [{
   },
   {
     "name":"Crystal",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://www.bandofcats.com/wp-content/uploads/2010/06/funny-cat-pictures_36.jpg",
     "scores":[
         5,
         1,
