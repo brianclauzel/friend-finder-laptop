@@ -21,13 +21,16 @@ module.exports = function (app) {
 
   app.post("/api/friends", function (req, res) {
 
-    const userScores = getUserScores(req.body.scores)
-    const mostCompatiible = friends
-      .map(friend => {
-        friend.diff = Math.abs(sumOfArray(friend.scores) - sumOfArray(getUserScores(req.body.scores)))
-        return friend
+    var newFriends = req.body;
+    
+    friends.push(newFriends);
+
+    const userScores = getUserScores(req.body.scores);
+    const mostCompatiible = friends.map(friend => {
+        friend.diff = Math.abs(sumOfArray(friend.scores) - sumOfArray(getUserScores(req.body.scores)));
+            return friend;
       }).sort((a, b) => a.diff > b.diff)[0]
-    res.json(mostCompatiible)
+    res.json(mostCompatiible);
 
   });
 };
